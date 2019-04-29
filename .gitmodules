@@ -1,0 +1,6 @@
+[submodule "cb-multios"]
+	path = cb-multios
+	url = https://github.com/yanxx297/cb-multios
+[submodule "fuzzball-loopsum"]
+	path = fuzzball-loopsum
+	url = https://github.com/yanxx297/fuzzball-loopsum
