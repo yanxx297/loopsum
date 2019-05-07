@@ -14,6 +14,7 @@ cd fuzzball-loopsum/examples/loopsum
 
 ### Run CBs wtih (loopsum)FuzzBALL
 Use the cmdline bellow to run [Palindrome](https://github.com/yanxx297/cb-multios/tree/master/challenges/Palindrome) on FuzzBALL.
+pyelftools is required by this script.
 ```bash
 cd cb-multios/tools/
 ./cb-test.py --directory ../../cb-multios/build/challenges/Palindrome --xml_dir \
@@ -22,7 +23,7 @@ cd cb-multios/tools/
 ```
 Results are logged in [this google spreadsheet](https://docs.google.com/spreadsheets/d/1ZJjkgshZrRyk-zBE38rshinlcJrFB_bD-qv12G8EW1A/edit#gid=0).
 
-FuzzBALL output is stored in /tmp/fuzzball.log for debugging purpose.
+FuzzBALL output is stored in outputs/CB_name for debugging purpose.
 
 ## Reference
 <a name="footnote1">[1]</a>
