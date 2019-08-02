@@ -25,6 +25,14 @@ Results are logged in [this google spreadsheet](https://docs.google.com/spreadsh
 
 FuzzBALL output is stored in outputs/CB_name for debugging purpose.
 
+### Compile SV-COMP benchmark
+```bash
+cd sv-benchmarks/c
+make SYNTAX_ONLY=0 CC=clang
+```
+NOTE: Some programs only compiled with gcc, some only clang, switch to the other when get stuck.   
+Binaries are in``/c/bins``.
+
 ## Reference
 <a name="footnote1">[1]</a>
 Patrice Godefroid and Daniel Luchaup. Automatic partial loop summarization in
