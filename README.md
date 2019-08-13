@@ -4,6 +4,9 @@ Implement loop summarization <sup>[1](#footnote1)</sup> on FuzzBALL and evaluate
 ### Test loop summarization with toy examples
 There are several examples in ``examples/loopsum``, run them with the following cmdline to test.
 You can add ``-trace-loop(-detailed)`` and ``-trace-loopsum(-detailed)`` for more debugging information.
+
+More details in the documents of each example folders
+
 ```bash
 cd fuzzball-loopsum/examples/loopsum
 ../../exec_utils/fuzzball -use-loopsum -trace-loop -trace-iterations -trace-conditions \
@@ -24,14 +27,6 @@ cd cb-multios/tools/
 Results are logged in [this google spreadsheet](https://docs.google.com/spreadsheets/d/1ZJjkgshZrRyk-zBE38rshinlcJrFB_bD-qv12G8EW1A/edit#gid=0).
 
 FuzzBALL output is stored in outputs/CB_name for debugging purpose.
-
-### Compile SV-COMP benchmark
-```bash
-cd sv-benchmarks/c
-make SYNTAX_ONLY=0 CC=clang
-```
-NOTE: Some programs only compiled with gcc, some only clang, switch to the other when get stuck.   
-Binaries are in``/c/bins``.
 
 ## Reference
 <a name="footnote1">[1]</a>
