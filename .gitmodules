@@ -6,4 +6,4 @@
 	url = https://github.com/yanxx297/fuzzball-loopsum
 [submodule "sv-benchmarks"]
 	path = sv-benchmarks
-	url = https://github.com/sosy-lab/sv-benchmarks
+	url = https://github.com/yanxx297/sv-benchmarks
